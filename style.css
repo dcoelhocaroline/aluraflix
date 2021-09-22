@@ -1,0 +1,93 @@
+body, header, section {
+    font-family: "Roboto Mono", monospace;
+    background-color: #141414;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    color:#ffffff;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+input {
+    -webkit-appearance: textfield;
+    transition: 0.3s ease;
+    width: 300px;
+    margin: 16px;
+    padding: 8px;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+}
+
+input:focus-visible {
+    transition: 0.3s;
+    outline: none;
+    box-shadow: 6px 6px #da1e26;
+}
+
+button {
+    transition: 0.3s ease;
+    margin: 16px;
+    padding: 8px;
+    border: none;
+    background-color: #da1e26;
+    width: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+button:hover {
+    transition: 0.3s ease;
+    box-shadow: 6px 6px #ffffff;
+    cursor: pointer;
+}
+
+button:active, :focus-visible {
+    transition: 0.3s ease;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+img {
+    margin: 10px;
+    max-height: 250px;
+}
+
+#listaFilmes {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#listaFilmes p {
+    width: 200px;
+}
+
+@media (max-height: 500px, ) {
+    body {
+        min-height: 800px;
+    }
+}
